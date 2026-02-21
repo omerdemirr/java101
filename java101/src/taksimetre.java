@@ -13,7 +13,7 @@ public class taksimetre {
 
         Tutar = Mesafe * KmUcret;
 
-        if(Tutar >= min){
+        if(Tutar > min){
             Tutar += 10;
             System.out.println("Toplam Mesafe : " + Mesafe);
             System.out.println("Toplam Tutarınız : " + Tutar);
@@ -24,3 +24,15 @@ public class taksimetre {
         }
     }
 }
+
+
+/*
+
+Armut : 2,14 TL
+Elma : 3,67 TL
+Domates : 1,11 TL
+Muz: 0,95 TL
+Patlıcan : 5,00 TL
+
+
+ */
